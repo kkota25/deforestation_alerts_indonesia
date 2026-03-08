@@ -322,4 +322,4 @@ readr::write_csv(thresholds, out_thresholds)
 message("Saved: ", out_frontier_stats)
 message("Saved: ", out_thresholds)
 
-message("=== 10_perp_data_reg.R completed successfully ===")
+message("=== 30_perp_data_reg.R completed successfully ===")

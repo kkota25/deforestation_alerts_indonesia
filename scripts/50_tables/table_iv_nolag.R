@@ -17,7 +17,7 @@ dir.create(table_dir, recursive = TRUE, showWarnings = FALSE)
 if (!file.exists(model_rds)) {
   stop(
     "model RDS not found: ", model_rds,
-    "\n先に scripts/40_models/iv_nolag.R を実行してください。"
+    "\n先に scripts/50_models/iv_nolag.R を実行してください。"
   )
 }
 

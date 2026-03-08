@@ -68,8 +68,8 @@ tab <- bind_rows(
     `Zero share` = round(`Zero share`, 3)
   )
 
-# 4) LaTeX 出力（ここが重要：scale_downで自動的に横幅に収める）
-out_path <- "../outputs/tables/table1_descriptive.tex"  # あなたのOverleaf構成に合わせる
+# 4) LaTeX 出力
+out_path <- "../outputs/tables/table1_descriptive.tex"  
 dir.create(dirname(out_path), recursive = TRUE, showWarnings = FALSE)
 
 tab_data <- tab %>% select(-panel)

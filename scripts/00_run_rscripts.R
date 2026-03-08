@@ -27,6 +27,7 @@ source("scripts/20_build/21_build_processed.R")
 source("scripts/20_build/22_clean_final.R")
 
 source("scripts/30_regprep/30_prep_data_reg.R")
+source("scripts/30_regprep/31_scale_units.R")
 
 source("scripts/40_models/41_baseline_feols.R")
 source("scripts/40_models/iv_nolag.R")
