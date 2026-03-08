@@ -1,4 +1,4 @@
-﻿ファイル構成txtファイル出力
+ファイル構成txtファイル出力
 
-cd ~/Desktop/graduation_thesis
+cd ~/Desktop/proj1
 ls -R > graduation_thesis.txt
